@@ -1,0 +1,8 @@
+# Rename this file to terraform.tfvars and update the values
+
+aws_region       = "us-east-1"
+project_name     = "webapp"
+key_name         = "your-key-pair-name"
+ami_id           = "ami-0454e52560c7f5c55"  # Update according to your region
+instance_type    = "t2.micro"
+ssh_allowed_cidr = "0.0.0.0/0"  # Restrict this in productions
